@@ -1,0 +1,144 @@
+* {
+padding: 0;
+margin: 0 auto;
+font-family: 'Open Sans', sans-serif;
+}
+
+.wrap {
+background-color: #473a2d;
+}
+.wrappakcen {
+background-image: url("img/Mernieks-fons-gaisais.jpg");
+overflow: hidden;
+}
+
+a {
+color: #ffffff;
+text-decoration: none;
+}
+
+a:hover{ background-color: #5b4d3b;
+}
+
+h2 {
+font-size:30px;
+color: #95782d;
+}
+
+h3 {
+font-size: 24px;
+color: #473a15;
+}
+
+
+header{
+width: 1200px;
+height: 94px;
+font-size: 14px;
+margin: 0 auto;
+}
+
+nav ul {
+list-style-type: none;
+padding-top: 40px;
+float:left;
+}
+
+nav li {
+margin-top: 10px;
+margin-left: 30px;
+display: inline;
+}
+
+.logo {
+padding-top: 30px;
+float:left;
+}
+
+.content {
+width: 1200px;
+font-weight: 200;
+margin: 0 auto;
+font-size: 16px;
+ }
+.content2 {
+width: 1200px;
+font-weight: 200;
+margin: 0 auto;
+font-size: 16px;
+ }
+
+.content h2{
+border-bottom: 2px dotted #736357;
+padding: 30px 500px 15px 500px;
+}
+.content2 h2{
+border-bottom: 2px dotted #736357;
+padding: 30px 400px 15px 400px;
+}
+
+
+.pakbloks{
+width: 350px;
+float: left;
+padding-top: 50px;
+padding-right: 50px;
+padding-bottom: 75px;
+}
+
+.pakbloks ul{
+list-style-type: none;
+padding:0;
+
+}
+.pakbloks img {
+float: left;
+margin-bottom: 450px;
+margin-right:20px;
+}
+.content li{
+padding-top: 25px;
+}
+
+.cenbloks1{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 570px;
+  float: left;
+}
+.cenbloks2{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 570px;
+  float: right;
+}
+
+.wrapparmums{
+  background-image: url("img/Mernieks-fons-tumsais.jpg");}
+
+.content4 {
+width: 1200px;
+}
+
+.content4 h2{
+border-bottom: 2px dotted #95782d;
+padding: 30px 510px 30px 510px;
+}
+
+.content4 p {
+color:#fff;
+font-size: 18px;
+font-weight: 200;
+line-height: 200%;
+}
+
+.parmums1{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 570px;
+}
+.parmums2{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 570px;
+}
