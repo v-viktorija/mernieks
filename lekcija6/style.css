@@ -30,6 +30,13 @@ font-size: 24px;
 color: #473a15;
 }
 
+h4 {
+font-size: 36px;
+color: #c7a457;
+font-weight: 200;
+text-align: center;
+}
+
 
 header{
 width: 1200px;
@@ -38,7 +45,7 @@ font-size: 14px;
 margin: 0 auto;
 }
 
-nav ul {
+<!-- nav ul {
 list-style-type: none;
 padding-top: 40px;
 float:left;
@@ -48,6 +55,10 @@ nav li {
 margin-top: 10px;
 margin-left: 30px;
 display: inline;
+}
+
+nav {
+float: right;
 }
 
 .logo {
@@ -70,11 +81,11 @@ font-size: 16px;
 
 .content h2{
 border-bottom: 2px dotted #736357;
-padding: 30px 500px 15px 500px;
+padding: 30px 500px 30px 500px;
 }
 .content2 h2{
 border-bottom: 2px dotted #736357;
-padding: 30px 400px 15px 400px;
+padding: 30px 400px 30px 400px;
 }
 
 
@@ -114,10 +125,13 @@ padding-top: 25px;
 }
 
 .wrapparmums{
-  background-image: url("img/Mernieks-fons-tumsais.jpg");}
+  background-image: url("img/Mernieks-fons-tumsais.jpg");
+  overflow: hidden;
+  }
 
 .content4 {
 width: 1200px;
+
 }
 
 .content4 h2{
@@ -127,18 +141,66 @@ padding: 30px 510px 30px 510px;
 
 .content4 p {
 color:#fff;
-font-size: 18px;
+font-size: 16px;
 font-weight: 200;
-line-height: 200%;
+padding-top: 30px;
 }
 
 .parmums1{
   padding-top: 30px;
   padding-bottom: 30px;
   width: 570px;
+  float: left;
 }
 .parmums2{
   padding-top: 30px;
   padding-bottom: 30px;
   width: 570px;
+  float: left;
+}
+
+.parmums1 p{
+color: #c7a457;
+text-align: center;
+}
+.parmums2 p{
+color: #c7a457;
+text-align: center;
+}
+
+.parmumstext p{
+  color: #fff;
+  text-align: left;
+}
+
+.parmums1 ul{
+  list-style-image: url("img/ikona-sertif.png");
+  display: inline;
+  width: 568px;
+  height: 79px;
+  background-color: #624e36;
+}
+.parmums2 ul{
+  list-style-image: url("img/ikona-sertif.png");
+  display: inline;
+  width: 568px;
+  height: 79px;
+  background-color: #624e36;
+}
+
+.content5 {
+width: 1200px;
+}
+.content5 h2 {
+  border-bottom: 2px dotted #736357;
+  padding: 30px 550px 30px;
+}
+.content5 div {
+  width: 1200px;
+}
+
+.content5 img{
+  margin-top: 30px;
+pa-left: auto;
+margin-right: auto;
 }
