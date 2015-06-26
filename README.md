@@ -1,3 +1,0 @@
-# mernieks
-mernieks web 
-vdg
