@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
+  color: #534c38;
 }
 .wrap {
   background-color: #473a2d;
@@ -12,6 +13,10 @@ body {
 .wrap3 {
   background-image: url("img/Mernieks-fons-tumsais.jpg");
   overflow: hidden;
+}
+.bakgr{
+  background: url("img/fons-rasejums.png")no-repeat;
+  background-size: cover;
 }
 .content {
   width: 1200px;
@@ -40,16 +45,6 @@ h3 {
   font-size: 24px;
   color: #473a15;
 }
-h4 {
-  font-size: 36px;
-  color: #c7a457;
-  font-weight: 200;
-  text-align: center;
-  border-bottom: thin solid #fff;
-  display: inline-block;
-  width: 330px;
-  margin-left: 115px;
-}
 header {
   width: 1200px;
   height: 94px;
@@ -72,6 +67,7 @@ nav li {
 }
 nav {
   float: right;
+  margin-right: -15px;
 }
 .bordernav {
   border-left: thin solid #fff;
@@ -87,6 +83,10 @@ nav {
   padding-bottom: 30px;
   text-align: center;
 }
+.content.contentdark h2 {
+  border-bottom: 2px dotted #c6a357;
+  color: #f2ebe1;
+  }
 .pakbloks {
   width: 350px;
   float: left;
@@ -120,13 +120,34 @@ nav {
 nav ul:nth-last-child(1){
   padding-right: 0;
 }
-nav ul a:nth-last-child(1){
-  padding-right: 0;
+.cenbloks table tr:nth-child(even) {
+background-color: #f2ebe1;
+}
+.cenbloks table{
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.cenbloks td, tr, th {
+  padding: 15px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.cenbloks table td:last-child{
+  font-weight: bold;
+}
+.cenbloks tr:nth-child(2) {
+  border-top: 1px solid #dfd9cf;
+}
+.cenbloks tr:last-child{
+  border-bottom: 1px solid #dfd9cf;
+}
+.cenbloks p:last-child{
+  font-size: 14px;
 }
 .pakbloks img {
   float: left;
 }
-
 .cenbloks1 {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -149,7 +170,24 @@ nav ul a:nth-last-child(1){
   font-weight: 200;
   padding-top: 15px;
 }
-.parmums1 {
+.parmums{
+float: left;
+width: 570px;
+text-align: center;
+}
+h4 {
+  font-size: 36px;
+  color: #f2ebe1;
+  font-weight: 200;
+ text-align: center;
+  border-bottom: thin solid #fff;
+
+  width: 330px;
+
+}
+
+/*
+ .parmums1 {
   padding-top: 30px;
   padding-bottom: 30px;
   width: 570px;
@@ -171,27 +209,28 @@ nav ul a:nth-last-child(1){
   display: inline-block;
 }
 .parmums1 p {
-  color: #c7a457;
+  color: #f2ebe1;
   text-align: center;
 }
 .parmums2 p {
-  color: #c7a457;
+  color: #f2ebe1;
   text-align: center;
 }
+*/
 .parmumstext p {
-  color: #fff;
+  color: #f2ebe1;
   text-align: left;
   font-size: 16px;
   font-weight: 200;
   line-height: 30px;
 }
-.parmums1 ul {
+/*.parmums1 ul {
   display: inline-block;
   width: 568px;
   height: 79px;
   background-color: #624e36;
   font-size: 13px;
-  color: #fff;
+  color: #f2ebe1;
   margin-top: 15px;
 }
 .parmums2 ul {
@@ -200,7 +239,7 @@ nav ul a:nth-last-child(1){
   height: 79px;
   background-color: #624e36;
   font-size: 13px;
-  color: #fff;
+  color: #f2ebe1;
   margin-top: 15px;
 }
 .parmums1 li {
@@ -224,7 +263,7 @@ nav ul a:nth-last-child(1){
   background-repeat: no-repeat;
   background-position: 200px 25px;
   display: inline-block;
-}
+} */
 .content5 {
   width: 1200px;
   text-align: justify;
@@ -258,4 +297,11 @@ nav ul a:nth-last-child(1){
   padding-left: 30px;
   float: left;
   text-align: center;
+  color: #f2ebe1;
+  line-height: 30px;
+}
+
+.adress li{
+  list-style-type: none;
+   font-size: 16px;
 }
