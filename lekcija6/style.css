@@ -25,12 +25,12 @@ body {
   font-size: 16px;
   overflow: hidden;
 }
-a {
+.menu a {
   color: #ffffff;
   text-decoration: none;
   padding: 15px;
 }
-a:hover {
+.menu a:hover {
   background-color: #5b4d3b;
   display: inlain-block;
   padding: 15px;
@@ -170,53 +170,22 @@ background-color: #f2ebe1;
   font-weight: 200;
   padding-top: 15px;
 }
-.parmums{
-float: left;
-width: 570px;
+.parmums1, .parmums2{
+
 text-align: center;
 }
-h4 {
+ .parmums1 h4, .parmums2 h4 {
+ margin: 0 auto;
+ padding:0px;
   font-size: 36px;
-  color: #f2ebe1;
+  color: #c7a457;
   font-weight: 200;
  text-align: center;
-  border-bottom: thin solid #fff;
-
+  border-bottom: thin solid #c7a457;
   width: 330px;
-
 }
 
-/*
- .parmums1 {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  width: 570px;
-  float: left;
-  margin-right: 60px;
-}
-.parmums2 {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  width: 570px;
-  float: left;
-}
-.parmums1 img {
-  margin-left: 190px;
-  display: inline-block;
-}
-.parmums2 img {
-  margin-left: 190px;
-  display: inline-block;
-}
-.parmums1 p {
-  color: #f2ebe1;
-  text-align: center;
-}
-.parmums2 p {
-  color: #f2ebe1;
-  text-align: center;
-}
-*/
+
 .parmumstext p {
   color: #f2ebe1;
   text-align: left;
@@ -224,7 +193,8 @@ h4 {
   font-weight: 200;
   line-height: 30px;
 }
-/*.parmums1 ul {
+.parmums ul {
+padding:0;
   display: inline-block;
   width: 568px;
   height: 79px;
@@ -233,37 +203,21 @@ h4 {
   color: #f2ebe1;
   margin-top: 15px;
 }
-.parmums2 ul {
-  display: inline-block;
-  width: 568px;
-  height: 79px;
-  background-color: #624e36;
-  font-size: 13px;
-  color: #f2ebe1;
-  margin-top: 15px;
-}
-.parmums1 li {
-  padding-left: 20px;
-  background-image: url("img/ikona-sertif.png");
-  background-repeat: no-repeat;
-  display: inline-block;
-}
-.parmums1 li {
+
+.parmums li {
   padding-top: 25px;
-  padding-left: 100px;
+  padding-left: 35px;
   background-image: url("img/ikona-sertif.png");
   background-repeat: no-repeat;
-  background-position: 60px 25px;
+ background-position: 0px 22px;
   display: inline-block;
 }
-.parmums2 li {
-  padding-top: 25px;
-  padding-left: 245px;
-  background-image: url("img/ikona-sertif.png");
-  background-repeat: no-repeat;
-  background-position: 200px 25px;
-  display: inline-block;
-} */
+.parmums1 li:first-child{
+margin-right: 50px;
+}
+.clortext {
+color: #c7a457;
+}
 .content5 {
   width: 1200px;
   text-align: justify;
@@ -284,6 +238,9 @@ h4 {
   margin: 30px;
   display: inline-block;
 }
+.content5 a:hover{
+
+}
 .content6 h2 {
   border-bottom: 2px dotted #95782d;
   padding: 30px 510px 30px;
@@ -294,7 +251,7 @@ h4 {
 }
 .adress {
   margin-top: 30px;
-  padding-left: 30px;
+  padding: 0 30px;
   float: left;
   text-align: center;
   color: #f2ebe1;
@@ -304,4 +261,31 @@ h4 {
 .adress li{
   list-style-type: none;
    font-size: 16px;
+   color: #c7a457;
+}
+.adress span{
+color: #eacc8b;
+}
+.forma{
+ margin-top:30px;
+ }
+.forma input{
+ width: 195px;
+ height: 35px;
+ background-color: #97804e;
+ border: none;
+ margin-bottom: 16px;
+ }
+
+.forma p{
+  color: #eacc8b;
+  text-transform: uppercase;
+}
+.forma input:nth-child(4){
+  width: 410px;
+  height: 140px;
+}
+
+.forma input:first-child{
+  margin-right: 16px;
 }
