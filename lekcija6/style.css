@@ -14,7 +14,7 @@ body {
   background-image: url("img/Mernieks-fons-tumsais.jpg");
   overflow: hidden;
 }
-.bakgr{
+.bakgr {
   background: url("img/fons-rasejums.png")no-repeat;
   background-size: cover;
 }
@@ -86,7 +86,7 @@ nav {
 .content.contentdark h2 {
   border-bottom: 2px dotted #c6a357;
   color: #f2ebe1;
-  }
+}
 .pakbloks {
   width: 350px;
   float: left;
@@ -98,9 +98,9 @@ nav {
   padding-left: 30px;
   margin: 0px;
 }
-.pakli{
-  overflow:hidden;
-  }
+.pakli {
+  overflow: hidden;
+}
 .pakli ul {
   list-style-type: none;
   padding-left: 30px;
@@ -113,36 +113,34 @@ nav {
   background-repeat: no-repeat;
   background-position: left bottom;
 }
-
 .pakbloks li:nth-last-child(1) {
- background-image: none;
+  background-image: none;
 }
-nav ul:nth-last-child(1){
+nav ul:nth-last-child(1) {
   padding-right: 0;
 }
 .cenbloks table tr:nth-child(even) {
-background-color: #f2ebe1;
+  background-color: #f2ebe1;
 }
-.cenbloks table{
-    border-spacing: 0;
-    border-collapse: collapse;
+.cenbloks table {
+  border-spacing: 0;
+  border-collapse: collapse;
 }
 .cenbloks td, tr, th {
   padding: 15px;
   font-size: 14px;
   text-align: left;
 }
-
-.cenbloks table td:last-child{
+.cenbloks table td:last-child {
   font-weight: bold;
 }
 .cenbloks tr:nth-child(2) {
   border-top: 1px solid #dfd9cf;
 }
-.cenbloks tr:last-child{
+.cenbloks tr:last-child {
   border-bottom: 1px solid #dfd9cf;
 }
-.cenbloks p:last-child{
+.cenbloks p:last-child {
   font-size: 14px;
 }
 .pakbloks img {
@@ -170,22 +168,19 @@ background-color: #f2ebe1;
   font-weight: 200;
   padding-top: 15px;
 }
-.parmums1, .parmums2{
-
-text-align: center;
+.parmums1, .parmums2 {
+  text-align: center;
 }
- .parmums1 h4, .parmums2 h4 {
- margin: 0 auto;
- padding:0px;
+.parmums1 h4, .parmums2 h4 {
+  margin: 0 auto;
+  padding: 0px;
   font-size: 36px;
   color: #c7a457;
   font-weight: 200;
- text-align: center;
+  text-align: center;
   border-bottom: thin solid #c7a457;
   width: 330px;
 }
-
-
 .parmumstext p {
   color: #f2ebe1;
   text-align: left;
@@ -194,7 +189,7 @@ text-align: center;
   line-height: 30px;
 }
 .parmums ul {
-padding:0;
+  padding: 0;
   display: inline-block;
   width: 568px;
   height: 79px;
@@ -203,20 +198,19 @@ padding:0;
   color: #f2ebe1;
   margin-top: 15px;
 }
-
 .parmums li {
   padding-top: 25px;
   padding-left: 35px;
   background-image: url("img/ikona-sertif.png");
   background-repeat: no-repeat;
- background-position: 0px 22px;
+  background-position: 0px 22px;
   display: inline-block;
 }
-.parmums1 li:first-child{
-margin-right: 50px;
+.parmums1 li:first-child {
+  margin-right: 50px;
 }
 .clortext {
-color: #c7a457;
+  color: #c7a457;
 }
 .content5 {
   width: 1200px;
@@ -232,15 +226,10 @@ color: #c7a457;
   padding: 30px 550px 30px;
 }
 .content5 div {
-  width: 1200px;
-}
-.content5 img {
   margin: 30px;
   display: inline-block;
 }
-.content5 a:hover{
-
-}
+.content5 a:hover {}
 .content6 h2 {
   border-bottom: 2px dotted #95782d;
   padding: 30px 510px 30px;
@@ -251,41 +240,197 @@ color: #c7a457;
 }
 .adress {
   margin-top: 30px;
-  padding: 0 30px;
+  padding: 0 20px;
   float: left;
   text-align: center;
   color: #f2ebe1;
   line-height: 30px;
 }
-
-.adress li{
+.adress li {
   list-style-type: none;
-   font-size: 16px;
-   color: #c7a457;
+  font-size: 16px;
+  color: #c7a457;
 }
-.adress span{
-color: #eacc8b;
+.adress a {
+  color: #c7a457;
+  text-decoration: none;
 }
-.forma{
- margin-top:30px;
- }
-.forma input{
- width: 195px;
- height: 35px;
- background-color: #97804e;
- border: none;
- margin-bottom: 16px;
- }
-
-.forma p{
+.adress span a {
+  color: #eacc8b;
+  text-decoration: none;
+}
+.forma {
+  margin-top: 30px;
+  display: block;
+  width: 410px;
+}
+.forma input {
+  width: 195px;
+  height: 35px;
+  background-color: #97804e;
+  border: none;
+  margin-bottom: 15px;
+}
+.forma p {
   color: #eacc8b;
   text-transform: uppercase;
 }
-.forma input:nth-child(4){
-  width: 410px;
+.forma textarea {
+  width: 405px;
   height: 140px;
+  background-color: #97804e;
+  border: none;
+  margin-bottom: 15px;
 }
-
-.forma input:first-child{
-  margin-right: 16px;
+.forma input:first-child {
+  margin-right: 15px;
+}
+.top {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+}
+.logo1 {
+  width: 217px;
+  height: 56px;
+  background-image: url(img/Latvijas-rep-logo.png);
+  background-repeat: no-repeat;
+}
+.logo1:hover {
+  background-image: url(img/Latvijas-rep-logo-overfl.png);
+}
+.logo2 {
+  width: 152px;
+  height: 70px;
+  background-image: url(img/lvm-logo-2.png);
+  background-repeat: no-repeat;
+}
+.logo2:hover {
+  background-image: url(img/lvm-logo.png);
+}
+.logo3 {
+  width: 158px;
+  height: 50px;
+  background-image: url(img/gibson-logo-2.png);
+  background-repeat: no-repeat;
+}
+.logo3:hover {
+  background-image: url(img/gibson-logo.png);
+}
+.logo4 {
+  width: 102px;
+  height: 56px;
+  background-image: url(img/busines-buld-logo2.png);
+  background-repeat: no-repeat;
+}
+.logo4:hover {
+  background-image: url(img/busines-buld-logo.png);
+}
+.logo5 {
+  width: 165px;
+  height: 29px;
+  background-image: url(img/baltic-sust-logo2.png);
+  background-repeat: no-repeat;
+}
+.logo5:hover {
+  background-image: url(img/baltic-sust-logo.png);
+}
+.logo6 {
+  width: 310px;
+  height: 40px;
+  background-image: url(img/statoi2l.png);
+  background-repeat: no-repeat;
+}
+.logo6:hover {
+  background-image: url(img/statoil.png);
+}
+.logo7 {
+  width: 157px;
+  height: 45px;
+  background-image: url(img/casamona2.png);
+  background-repeat: no-repeat;
+}
+.logo7:hover {
+  background-image: url(img/casamona.png);
+}
+.logo8 {
+  width: 174px;
+  height: 45px;
+  background-image: url(img/blue-roots2.png);
+  background-repeat: no-repeat;
+}
+.logo8:hover {
+  background-image: url(img/blue-roots.png);
+}
+.logo9 {
+  width: 72px;
+  height: 72px;
+  background-image: url(img/latv-valts-cel2.png);
+  background-repeat: no-repeat;
+}
+.logo9:hover {
+  background-image: url(img/latv-valts-cel.png);
+}
+.logo2 {
+  width: 152px;
+  height: 70px;
+  background-image: url(img/lvm-logo-2.png);
+  background-repeat: no-repeat;
+}
+.logo2:hover {
+  background-image: url(img/lvm-logo.png);
+}
+.logo3 {
+  width: 158px;
+  height: 50px;
+  background-image: url(img/gibson-logo-2.png);
+  background-repeat: no-repeat;
+}
+.logo3:hover {
+  background-image: url(img/gibson-logo.png);
+}
+.logo4 {
+  width: 102px;
+  height: 56px;
+  background-image: url(img/busines-buld-logo2.png);
+  background-repeat: no-repeat;
+}
+.logo4:hover {
+  background-image: url(img/busines-buld-logo.png);
+}
+.logo5 {
+  width: 165px;
+  height: 29px;
+  background-image: url(img/baltic-sust-logo2.png);
+  background-repeat: no-repeat;
+}
+.logo5:hover {
+  background-image: url(img/baltic-sust-logo.png);
+}
+.logo6 {
+  width: 310px;
+  height: 40px;
+  background-image: url(img/statoi2l.png);
+  background-repeat: no-repeat;
+}
+.logo6:hover {
+  background-image: url(img/statoil.png);
+}
+.logo7 {
+  width: 157px;
+  height: 45px;
+  background-image: url(img/casamona2.png);
+  background-repeat: no-repeat;
+}
+.logo7:hover {
+  background-image: url(img/casamona.png);
+}
+.logo8 {
+  width: 174px;
+  height: 45px;
+  background-image: url(img/blue-roots2.png);
+  background-repeat: no-repeat;
+}
+.logo8:hover {
+  background-image: url(img/blue-roots.png);
 }
