@@ -263,7 +263,15 @@ nav ul:nth-last-child(1) {
   margin-top: 30px;
   display: block;
   width: 410px;
+  float:right;
 }
+.forma ::-webkit-input-placeholder {
+  color: #b1965c;
+}
+.forma ::moz-placeholder {
+  color: #b1965c;
+}
+
 .forma input {
   width: 195px;
   height: 35px;
@@ -365,72 +373,121 @@ nav ul:nth-last-child(1) {
 .logo9 {
   width: 72px;
   height: 72px;
-  background-image: url(img/latv-valts-cel2.png);
+  background-image: url(img/latv-valts-ce-2.png);
   background-repeat: no-repeat;
 }
 .logo9:hover {
   background-image: url(img/latv-valts-cel.png);
 }
-.logo2 {
+.logo10 {
   width: 152px;
-  height: 70px;
-  background-image: url(img/lvm-logo-2.png);
+  height: 36px;
+  background-image: url(img/latvenergo-logo2.png);
   background-repeat: no-repeat;
 }
-.logo2:hover {
-  background-image: url(img/lvm-logo.png);
+.logo10:hover {
+  background-image: url(img/latvenergo-logo.png);
 }
-.logo3 {
-  width: 158px;
-  height: 50px;
-  background-image: url(img/gibson-logo-2.png);
+.logo11 {
+  width: 69px;
+  height: 86px;
+  background-image: url(img/fiter2.png);
   background-repeat: no-repeat;
 }
-.logo3:hover {
-  background-image: url(img/gibson-logo.png);
+.logo11:hover {
+  background-image: url(img/fiter.png);
 }
-.logo4 {
-  width: 102px;
-  height: 56px;
-  background-image: url(img/busines-buld-logo2.png);
+.logo12 {
+  width: 125px;
+  height: 41px;
+  background-image: url(img/lmt2.png);
   background-repeat: no-repeat;
 }
-.logo4:hover {
-  background-image: url(img/busines-buld-logo.png);
+.logo12:hover {
+  background-image: url(img/lmt.png);
 }
-.logo5 {
-  width: 165px;
-  height: 29px;
-  background-image: url(img/baltic-sust-logo2.png);
+.logo13 {
+  width: 82px;
+  height: 75px;
+  background-image: url(img/osta2.png);
   background-repeat: no-repeat;
 }
-.logo5:hover {
-  background-image: url(img/baltic-sust-logo.png);
+.logo13:hover {
+  background-image: url(img/osta.png);
 }
-.logo6 {
-  width: 310px;
-  height: 40px;
-  background-image: url(img/statoi2l.png);
+.logo14 {
+  width: 173px;
+  height: 44px;
+  background-image: url(img/ventbunker2.png);
   background-repeat: no-repeat;
 }
-.logo6:hover {
-  background-image: url(img/statoil.png);
+.logo14:hover {
+  background-image: url(img/ventbunker.png);
 }
-.logo7 {
-  width: 157px;
-  height: 45px;
-  background-image: url(img/casamona2.png);
+.logo15 {
+  width: 109px;
+  height: 47px;
+  background-image: url(img/latio2.png);
   background-repeat: no-repeat;
 }
-.logo7:hover {
-  background-image: url(img/casamona.png);
+.logo15:hover {
+  background-image: url(img/latio.png);
 }
-.logo8 {
-  width: 174px;
-  height: 45px;
-  background-image: url(img/blue-roots2.png);
+.logo16{
+  width: 182px;
+  height: 57px;
+  background-image: url(img/ventsp.png);
   background-repeat: no-repeat;
 }
-.logo8:hover {
-  background-image: url(img/blue-roots.png);
+.logo16:hover {
+  background-image: url(img/ventsp2.png);
+}
+
+.slider {
+  width:100%;
+  height: 594px;
+  background-image: url(img/slide1.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+  margin: 0;
+  background-size:cover;
+box-shadow: 0px 0px 3px 0px #473a2d;
+}
+
+.slidertext {
+  position:absolute;
+  top:255px;
+  left: 180px;
+}
+.slidertext h1, .slidertext p  {
+background-color: rgba(71, 58, 45, 0.8);
+color:#f5f2eb;
+margin: 0;
+}
+.slidertext h1 {
+  font-size: 44px;
+  font-weight: 200;
+  display: inline-block;
+ padding: 10px 20px;
+ margin-right: 1000px;
+}
+.slidertext p {
+  font-size: 24px;
+  font-weight: 200;
+  display: inline-block;
+ padding: 10px 20px;
+ margin-top: 15px;
+}
+.bulta {
+  width:26px;
+  height: 42px;
+  opacity: 0.4;
+  position:absolute;
+  top:50%;
+}
+.bulta1 {
+  left: 100px;
+}
+.bulta2 {
+  right: 100px;
 }
