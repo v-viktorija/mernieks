@@ -267,9 +267,11 @@ nav ul:nth-last-child(1) {
 }
 .forma ::-webkit-input-placeholder {
   color: #b1965c;
+  padding-left: 5px;
 }
 .forma ::moz-placeholder {
   color: #b1965c;
+  padding-left: 5px;
 }
 
 .forma input {
@@ -292,6 +294,7 @@ nav ul:nth-last-child(1) {
 }
 .forma input:first-child {
   margin-right: 15px;
+
 }
 .top {
   position: fixed;
